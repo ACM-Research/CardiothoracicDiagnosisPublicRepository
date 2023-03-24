@@ -4,4 +4,3 @@ Machine learning and artificial intelligence have changed the way we live in tod
 
 This repository will contain the progress of our research 
 
-PEPEPPELOL
