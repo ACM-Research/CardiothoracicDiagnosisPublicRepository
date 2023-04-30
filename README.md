@@ -9,9 +9,9 @@ Cardiovascular diseases were rare before the 20th century, but have become the l
 ## Data Collection
 To create our main dataset for training, we gathered data from various sources, including the NCBI and National Institute of Health. Each image was preprocessed with a bounding box to indicate the disease location. With this data, we trained our models to accurately detect COVID-19, Pneumonia, and Cardiomegaly in chest scans. We used industry-standard data augmentation techniques, such as random cropping, rotation, and horizontal flips, to diversify our data and generate a larger pool of accurate data as well as account for the fewer data available for Cardiomegaly. These augmentation methods enabled us to signficiantly increase our data pool with data that accurately reflects the common complexities and impurities in diagnostic imaging.
 
-![Training Data Sample](https://user-images.githubusercontent.com/78103390/235333139-92c97aa8-6a6b-4df1-9dfd-6bb22b1ba030.png)
+<p align = "center"><img alt = "Example of Chest Radiography" title = "Credits to Zahid Ullah, Muhammad Usman, Siddique Latif & Jeonghwan Gwak" src = https://media.springernature.com/m685/springer-static/image/art%3A10.1038%2Fs41598-022-27266-9/MediaObjects/41598_2022_27266_Fig1_HTML.png width = "2000"/> </p> 
 
-This is an example of our training data
+<p align="center">This is an example of our training data</p>
 
 ## Models
 Our Choices of Models:
