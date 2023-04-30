@@ -38,7 +38,7 @@ Our Custom DETR Transformer Backbone
 
 ## Analysis
 
-Originally, the model overfitted cardiomegaly due to a lack of training images for that disease. To address this issue, data augmentation was done to account for this data imbalance and all data was scaled to be equal. After this change, as demonstrated by the receiver operating characteristic (ROC) curve, the classification models achieved near-perfect accuracy when comparing the true positive and false positive rates. This is furthered with the confusion matrix representing the model's 97\% accuracy. The detection models performed at similar rates; specifically, both the DETR transformer and YOLOv7 model predicted and bounded at a 95\% accuracy.
+Originally, the model overfitted cardiomegaly due to a lack of training images for that disease. To address this issue, data augmentation was done to account for this data imbalance and all data was scaled to be equal. After this change, as demonstrated by the receiver operating characteristic (ROC) curve, the classification models achieved near-perfect accuracy when comparing the true positive and false positive rates. This is furthered with the confusion matrix representing the model's 99.75\% accuracy. The detection models performed at similar rates; specifically, both the DETR transformer and YOLOv7 model predicted and bounded at a 95\% accuracy.
 
 ## Conclusion
 
