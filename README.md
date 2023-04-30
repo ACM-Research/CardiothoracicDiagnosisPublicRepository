@@ -19,12 +19,19 @@ Our Choices of Models:
 - YOLOv7: For comparison, we also implement YOLOv7 - a state-of-the-art object detection algorithm with high efficiency. This model was used a baseline, industry-standard detection model to compare the customized DETR transformer.
 - Efficient-DET: EfficientDet is a state-of-the-art object detection algorithm that achieves high accuracy while being computationally efficient. It is designed to address the trade-off between accuracy and efficiency in object detection tasks, which are crucial for a variety of applications such as autonomous driving, robotics, and surveillance. EfficientDet uses a novel compound scaling method that optimizes the network architecture, input image resolution, and model depth to achieve better accuracy and efficiency simultaneously. It also uses efficient building blocks such as mobile inverted bottleneck convolution (MBConv) and squeeze-and-excitation (SE) modules to reduce the computational cost while maintaining high performance. The EfficientDet models have achieved top performance on the COCO benchmark, which evaluates object detection accuracy and efficiency, and have been widely adopted in real-world applications due to their high efficiency and accuracy.
 
+
+![arch (1)](https://user-images.githubusercontent.com/78103390/235333519-09e19cef-b927-4caf-895d-f3d714adf0fe.png)
+
+<sub>Our Custom DETR Transformer Backbone</sub>
+
 ## Results
 
-### - Receiver Operating Characteristic Curve (ROC)
+- Receiver Operating Characteristic Curve (ROC)
+
 ![roc (1)](https://user-images.githubusercontent.com/78103390/235333384-abea82c1-fedf-4632-8444-4846be38241f.png)
 
 
 - Confusion Matrix
+
 ![confusion](https://user-images.githubusercontent.com/78103390/235333379-80290281-7a0e-4e7e-a89d-43bc2a1aaf27.png)
 
