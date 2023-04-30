@@ -11,7 +11,7 @@ To create our main dataset for training, we gathered data from various sources, 
 
 ![Training Data Sample](https://user-images.githubusercontent.com/78103390/235333139-92c97aa8-6a6b-4df1-9dfd-6bb22b1ba030.png)
 
-<sub>This is an example of our training data.</sub>
+This is an example of our training data
 
 ## Models
 Our Choices of Models:
@@ -22,7 +22,7 @@ Our Choices of Models:
 
 ![arch (1)](https://user-images.githubusercontent.com/78103390/235333519-09e19cef-b927-4caf-895d-f3d714adf0fe.png)
 
-<sub>Our Custom DETR Transformer Backbone</sub>
+Our Custom DETR Transformer Backbone
 
 ## Results
 
