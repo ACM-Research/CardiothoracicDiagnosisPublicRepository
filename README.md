@@ -50,5 +50,6 @@ As we continue to refine our machine learning model for cardiothoracic diagnosis
 ## Contributors
 
 @123Cub123Cub1234
+@ Avinash Sriram
 
 
