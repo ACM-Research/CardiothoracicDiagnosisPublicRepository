@@ -46,8 +46,8 @@ As we continue to refine our machine learning model for cardiothoracic diagnosis
 
 ## References
 
-- Carion, Nicolas, End-To-End Object Detection with Transformers. Moses, Daniel A. “Deep Learning Applied to Automatic Disease Detection Using Chest X‐Rays.” Journal of Medical
-- Wong, Kin-Yiu. “Official YOLOv7.” GitHub, 12 Sept. 2022, github.com/WongKinYiu/yolov7.
+1. Carion, Nicolas, End-To-End Object Detection with Transformers. Moses, Daniel A. “Deep Learning Applied to Automatic Disease Detection Using Chest X‐Rays.” Journal of Medical
+2. Wong, Kin-Yiu. “Official YOLOv7.” GitHub, 12 Sept. 2022, github.com/WongKinYiu/yolov7.
 
 ## Directory Overview
 
