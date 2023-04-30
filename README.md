@@ -49,6 +49,7 @@ As we continue to refine our machine learning model for cardiothoracic diagnosis
 
 ## Contributors
 
-@123Cub123Cub1234
+@ACM-Research/cardiothoracic-diagnosis-through-machine-and-deep-learning
+
 
 
