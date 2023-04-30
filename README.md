@@ -1,6 +1,6 @@
 # Cardiothoracic Disease Diagnosis: Using Machine Learning for Accurate Disease Detection from Chest Scans
 
-![_2__Cardiothoracic_Diagnosis-1](https://user-images.githubusercontent.com/78103390/235333113-aa6d692d-41ef-4f6a-8451-2072ffb0a015.png)
+![_2__Cardiothoracic_Diagnosis (2)-1](https://user-images.githubusercontent.com/78103390/235334274-4d0fb189-b488-45df-a2a1-13c43c2e6375.png)
 
 ## Introduction & Motivation
 
