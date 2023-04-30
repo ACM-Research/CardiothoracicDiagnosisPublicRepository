@@ -26,12 +26,29 @@ Our Custom DETR Transformer Backbone
 
 ## Results
 
-- Receiver Operating Characteristic Curve (ROC)
+### Receiver Operating Characteristic Curve (ROC)
 
 ![roc (1)](https://user-images.githubusercontent.com/78103390/235333384-abea82c1-fedf-4632-8444-4846be38241f.png)
 
 
-- Confusion Matrix
+### Confusion Matrix
 
 ![confusion](https://user-images.githubusercontent.com/78103390/235333379-80290281-7a0e-4e7e-a89d-43bc2a1aaf27.png)
+
+
+## Analysis
+
+Originally, the model overfitted cardiomegaly due to a lack of training images for that disease. To address this issue, data augmentation was done to account for this data imbalance and all data was scaled to be equal. After this change, as demonstrated by the receiver operating characteristic (ROC) curve, the classification models achieved near-perfect accuracy when comparing the true positive and false positive rates. This is furthered with the confusion matrix representing the model's 97\% accuracy. The detection models performed at similar rates; specifically, both the DETR transformer and YOLOv7 model predicted and bounded at a 95\% accuracy.
+
+## Conclusion
+
+As we continue to refine our machine learning model for cardiothoracic diagnosis, there are several potential future endeavors that we can pursue. One such area of exploration is the use of more detailed data sources representative of other chest-related diseases along with more patient information.  Additionally, we plan to implement EfficientDet, an object detection model that is optimized for lightweight devices for the development of a mobile application that utilizes our model for real-time diagnosis of cardiothoracic diseases. This could greatly improve access to healthcare in underprivileged communities. Overall, there is much room for growth and innovation in the field of cardiothoracic diagnosis, and we look forward to continuing our efforts in this exciting area of research.
+
+## Directory Overview
+
+
+## Contributors
+
+@123Cub123Cub1234
+
 
