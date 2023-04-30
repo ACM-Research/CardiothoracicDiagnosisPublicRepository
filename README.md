@@ -52,7 +52,7 @@ As we continue to refine our machine learning model for cardiothoracic diagnosis
 ## Contributors
 
 - Avinash Sriram
-- Philip Lee
+- Philip Lee [leePhilip23](https://github.com/LeePhilip)
 - Shahrukh Showkath
 - Anish Nyalakonda
 - Aditya Desai
