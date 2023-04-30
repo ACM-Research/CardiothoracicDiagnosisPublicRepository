@@ -53,9 +53,9 @@ As we continue to refine our machine learning model for cardiothoracic diagnosis
 
 - [Avinash Sriram](https://github.com/123Cub123Cub1234)
 - [Philip Lee](https://github.com/LeePhilip)
-- Shahrukh Showkath
+- [Sharukh Showkath](https://github.com/SShowkath)
 - [Anish Nyalakonda](https://github.com/AnishNyalakonda)
-- Aditya Desai
+- [Aditya Desai](https://github.com/AdiDesai100)
 
 
 
