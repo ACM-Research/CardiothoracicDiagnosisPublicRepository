@@ -13,7 +13,7 @@ Cardiovascular diseases were rare before the 20th century, but have become the l
 ## Data Collection
 To create our main dataset for training, we gathered data from various sources, including the NCBI and National Institute of Health. Each image was preprocessed with a bounding box to indicate the disease location. With this data, we trained our models to accurately detect COVID-19, Pneumonia, and Cardiomegaly in chest scans. We used industry-standard data augmentation techniques, such as random cropping, rotation, and horizontal flips, to diversify our data and generate a larger pool of accurate data as well as account for the fewer data available for Cardiomegaly. These augmentation methods enabled us to signficiantly increase our data pool with data that accurately reflects the common complexities and impurities in diagnostic imaging.
 
-![augments](https://user-images.githubusercontent.com/78103390/235403898-dddf1734-1d9c-414e-9209-f55cad12848d.png)
+<p align = "center">![augments](https://user-images.githubusercontent.com/78103390/235403898-dddf1734-1d9c-414e-9209-f55cad12848d.png)</p> 
 
 <p align="center">This is an example of our augmented/synthetic data</p>
 
@@ -26,7 +26,7 @@ Original Model: https://github.com/WongKinYiu/yolov7
 - ***EfficientDET***: EfficientDet is a state-of-the-art object detection algorithm that achieves high accuracy while being computationally efficient. It is designed to address the trade-off between accuracy and efficiency in object detection tasks, which are crucial for a variety of applications such as autonomous driving, robotics, and surveillance. EfficientDet uses a novel compound scaling method that optimizes the network architecture, input image resolution, and model depth to achieve better accuracy and efficiency simultaneously. It also uses efficient building blocks such as mobile inverted bottleneck convolution (MBConv) and squeeze-and-excitation (SE) modules to reduce the computational cost while maintaining high performance. The EfficientDet models have achieved top performance on the COCO benchmark, which evaluates object detection accuracy and efficiency, and have been widely adopted in real-world applications due to their high efficiency and accuracy.
 
 
-![arch](https://user-images.githubusercontent.com/78103390/235403759-136ca89e-76cd-4ca8-893b-4e37d813c51d.png)
+<p align = "center">![arch](https://user-images.githubusercontent.com/78103390/235403759-136ca89e-76cd-4ca8-893b-4e37d813c51d.png)<\p>
 
 <p align="center">Our Custom DETR Backbone</p>
 
@@ -34,17 +34,17 @@ Original Model: https://github.com/WongKinYiu/yolov7
 
 ### Receiver Operating Characteristic Curve (ROC)
 
-![roc (1)](https://user-images.githubusercontent.com/78103390/235333384-abea82c1-fedf-4632-8444-4846be38241f.png)
+<p align = "center">![roc (1)](https://user-images.githubusercontent.com/78103390/235333384-abea82c1-fedf-4632-8444-4846be38241f.png)</p>
 
 
 ### Confusion Matrix
 
-![confusion](https://user-images.githubusercontent.com/78103390/235333379-80290281-7a0e-4e7e-a89d-43bc2a1aaf27.png)
+<p align = "center">![confusion](https://user-images.githubusercontent.com/78103390/235333379-80290281-7a0e-4e7e-a89d-43bc2a1aaf27.png)</p>
 
 
 ## Analysis
 
-![transformers](https://user-images.githubusercontent.com/78103390/235403532-80cc14b5-afa3-44bb-92c6-14519ab3b642.png)
+<p align = "center">![transformers](https://user-images.githubusercontent.com/78103390/235403532-80cc14b5-afa3-44bb-92c6-14519ab3b642.png)</p>
 
 <p align="center">DETR Loss Analysis</p>
 
