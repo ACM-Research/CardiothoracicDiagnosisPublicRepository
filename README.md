@@ -63,12 +63,31 @@ YOLOv7’s accuracy of 96.2%, and Efficient‐Det’s 95.6% accuracy.
 
 ## Conclusion
 
-As we continue to refine our machine learning model for cardiothoracic diagnosis, there are several potential future endeavors that we can pursue. One such area of exploration is the use of more detailed data sources representative of other chest-related diseases along with more patient information.  Additionally, we plan to implement EfficientDet, an object detection model that is optimized for lightweight devices for the development of a mobile application that utilizes our model for real-time diagnosis of cardiothoracic diseases. This could greatly improve access to healthcare in underprivileged communities. Overall, there is much room for growth and innovation in the field of cardiothoracic diagnosis, and we look forward to continuing our efforts in this exciting area of research.
-
+As we continue to refine our machine learning model for cardiothoracic diagno‐
+sis, there are several potential future endeavors that we can pursue. One such
+area of exploration is the use of more detailed data sources representative of
+other chest‐related diseases along with more patient information. Additionally,
+we plan to implement EfficientDET, an object detection model that is optimized
+for lightweight devices for the development of a mobile application that utilizes
+our model for real‐time diagnosis of cardiothoracic diseases. This could greatly
+improve access to healthcare in underprivileged communities. Overall, there is
+much room for growth and innovation in the field of cardiothoracic diagnosis, and
+we look forward to continuing our efforts in this exciting area of research
 ## References
 
-1. Carion, Nicolas, End-To-End Object Detection with Transformers. Moses, Daniel A. “Deep Learning Applied to Automatic Disease Detection Using Chest X‐Rays.” Journal of Medical
-2. Wong, Kin-Yiu. “Official YOLOv7.” GitHub, 12 Sept. 2022, github.com/WongKinYiu/yolov7.
+1. Carion, N., Massa, F., Synnaeve, G., Usunier, N., Kirillov, A., & Zagoruyko, S. (2020). End-to-End Object Detection with Transformers. https://arxiv.org/pdf/2005.12872.pdf
+
+2. DE⫶TR: End-to-End Object Detection with Transformers. (2022, October 27). GitHub. https://github.com/facebookresearch/detr
+
+3. He, K., Zhang, X., Ren, S., & Sun, J. (2015). Deep Residual Learning for Image Recognition. https://arxiv.org/pdf/1512.03385v1.pdf
+
+4. Moses, D. A. (2021). Deep learning applied to automatic disease detection using chest X‐rays. Journal of Medical Imaging and Radiation Oncology, 65(5), 498–517. https://doi.org/10.1111/1754-9485.13273
+
+5. Santosh, K. C., Dhar, M. K., Rajbhandari, R., & Neupane, A. (2020, July 1). Deep Neural Network for Foreign Object Detection in Chest X-Rays. IEEE Xplore. https://doi.org/10.1109/CBMS49503.2020.00107
+
+6. Tan, M., Pang, R., & Le, Q. (2020). EfficientDet: Scalable and Efficient Object Detection. https://arxiv.org/pdf/1911.09070.pdf
+
+7. Wang, C.-Y., Bochkovskiy, A., & Liao, H.-Y. (2022). YOLOv7: Trainable bag-of-freebies sets new state-of-the-art for real-time object detectors. https://arxiv.org/pdf/2207.02696.pdf
 
 ## Contributors
 
