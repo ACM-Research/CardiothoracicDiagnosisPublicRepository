@@ -15,6 +15,8 @@ To create our main dataset for training, we gathered data from various sources, 
 
 ![augments](https://user-images.githubusercontent.com/78103390/235403898-dddf1734-1d9c-414e-9209-f55cad12848d.png)
 
+<p align="center">This is an example of our augmented/synthetic data</p>
+
 ## Models
 Our Choices of Models:
  - ***DETR (Detection Transformer)***: DETR, or Detection Transformer, is a cutting-edge object detection framework that utilizes a transformer-based architecture to reason about the relationship of objects and the global context of the image. Unlike traditional object detection algorithms that rely on region proposal networks and post-processing steps, DETR directly predicts the set of objects present in an image as well as their corresponding bounding boxes in a single forward pass. This approach eliminates the need for heuristic post-processing steps and enables end-to-end training of the model. The backbone of DETR consists of a ResNet-50, which is a popular convolutional neural network architecture for image classification tasks. However, to combine the strengths of global and local feature extraction, we have developed a ResNet-50/EfficientNet hybrid backbone. This allows the model to extract both low-level and high-level features from the input image, which improves the overall performance of the detector. The DETR framework has shown remarkable results on the COCO benchmark and has demonstrated its potential for real-world applications such as robotics, autonomous driving, and surveillance. <br>
@@ -26,8 +28,7 @@ Original Model: https://github.com/WongKinYiu/yolov7
 
 ![arch](https://user-images.githubusercontent.com/78103390/235403759-136ca89e-76cd-4ca8-893b-4e37d813c51d.png)
 
-
-Our Custom DETR Transformer Backbone
+<p align="center">Our Custom DETR Backbone</p>
 
 ## Results
 
@@ -44,6 +45,8 @@ Our Custom DETR Transformer Backbone
 ## Analysis
 
 ![transformers](https://user-images.githubusercontent.com/78103390/235403532-80cc14b5-afa3-44bb-92c6-14519ab3b642.png)
+
+<p align="center">DETR Loss Analysis</p>
 
 Originally, the model overfitted cardiomegaly due to a lack of training images for that disease. To address this issue, data augmentation was done to account for this data imbalance and all data was scaled to be equal. After this change, as demonstrated by the receiver operating characteristic (ROC) curve, the classification models achieved near-perfect accuracy when comparing the true positive and false positive rates. This is furthered with the confusion matrix representing the model's 97% accuracy. The detection models performed at similar rates; specifically, both the DETR transformer and YOLOv7 model predicted and bounded at a 95% accuracy.
 
