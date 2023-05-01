@@ -53,6 +53,7 @@ using cross‐entropy between predicted class probabilities and true labels.
 - Bounding box regression loss minimizes the difference between predicted and
 ground‐truth boxes, and is calculated using a distance measure like L1 or L2
 distance.
+
 The overall DETR loss function balances classification and regression losses to
 optimize object detection and localization in images. At a 98.1% accuracy, the
 custom DETR model outperformed the base DETR model’s accuracy of 92.3%,
