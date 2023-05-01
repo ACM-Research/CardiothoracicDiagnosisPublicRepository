@@ -43,7 +43,7 @@ Original Model: https://github.com/WongKinYiu/yolov7
 
 ## Analysis
 
-<p align = "center"><img src = https://user-images.githubusercontent.com/78103390/235403532-80cc14b5-afa3-44bb-92c6-14519ab3b642.png>
+<p align = "center"><img src = https://user-images.githubusercontent.com/78103390/235404826-19a6083a-e51c-4904-a1de-d058f249d357.png>
 
 <p align="center">DETR Loss Analysis</p>
 
